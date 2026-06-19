@@ -1,0 +1,91 @@
+.menu{
+    
+}
+.menu h2{
+    font-family:"Allura",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    text-align: center;
+    font-size: 6rem;
+    margin-top: 20px;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+}
+.menu .everyday{
+    font-family: "MartelSans",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    grid-column: 1/-1;
+    text-align: center;
+}
+.ramen-container{
+    display: grid;
+    grid-template-rows: 350px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-auto-rows: 350px;
+    gap: 20px;
+    margin: 20px;
+}
+.ramen{
+    display: grid;
+    grid-template-columns: 180px 1fr 80px;
+    grid-template-rows:  70px 1fr 60px;
+    background-color: var(--dark-grey);
+    color: var(--light-color);
+    font-family: "MartelSans",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 2px 2px 12px black;
+    transition: all 0.5s ease;
+}
+.ramen:hover{
+    box-shadow: 5px 5px 10px black;
+    transform: rotate(2deg);
+}
+.ramen img{
+    height: 200px;
+    width: auto;
+    grid-row: 1/-1;
+    place-self: center;
+    border-radius: 5px;
+    
+}
+.ramen h3{
+    grid-column: 2/-1;
+    place-self: center;
+    font-size: 1.5rem;
+}
+.ramen .description{
+    grid-column: 2/-1;
+    font-size: 1.1rem;
+    align-items: center;
+    text-align: center;
+    padding-right: 10px;
+}
+.ramen button{
+    width: 30px;
+    height: 30px;
+    place-self: center;
+    background-color: transparent;
+    display: grid;
+    place-content: center;
+    font-size: 1.2rem;
+    color: var(--brown);
+    border: none;
+}
+.ramen button i{
+    transition: all 0.4s ease;
+
+}
+.ramen button:hover i{
+    text-shadow: 4px 4px 5px black;
+    transform: translateY(-4px);
+}
+.ramen button:active i{
+    text-shadow: 4px 4px 10px black;
+    transform: translateY(-2px);
+    color: var(--light-color)
+}
+.ramen .price{
+    justify-self: flex-end;
+    align-self: center;
+    padding-right: 20px;
+    font-size: 1.1rem;
+    font-style: italic;
+}

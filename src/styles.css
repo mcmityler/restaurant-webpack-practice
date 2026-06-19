@@ -35,6 +35,7 @@ header{
     background-color: var(--dark-grey);
     display: grid;
     place-items: center;
+    box-shadow: 5px 0px 10px black;
 }
 header nav{
     display: grid;

@@ -1,4 +1,4 @@
-import homepageRamen from "./homepage-ramen.jpg";
+import homepageRamen from "./images/homepage-ramen.jpg";
 import "./home.css";
 
 export function createHomepage(){
@@ -12,6 +12,7 @@ export function createHomepage(){
 
     const homepageImage = document.createElement("img");
     homepageImage.src = homepageRamen;
+    homepageImage.alt = "Picture of a bowl of ramen"
 
     const homepageTagline = document.createElement("p");
     homepageTagline.textContent = "Come enjoy a bowl of ramen with us."
