@@ -1,4 +1,66 @@
 /* styles.css */
+@font-face {
+    font-family: 'Allura';
+    src: url('./Allura-Regular.woff2') format('woff2'),
+        url('./Allura-Regular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MartelSans';
+    src: url('./MartelSans-Regular.woff2') format('woff2'),
+        url('./MartelSans-Regular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+:root{
+    --dark-grey: #37353e;
+    --light-grey: #44444e;
+    --brown: #715A5A;
+    --light-color: #D3DAD9;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-  background-color: rebeccapurple;
+    background-color: var(--light-grey);
+;
+}
+header{
+    height: 80px;
+    background-color: var(--dark-grey);
+    display: grid;
+    place-items: center;
+}
+header nav{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+header button{
+    width: 100px;
+    height: 30px;
+    font-family: "MartelSans",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    background-color: var(--brown);
+    border: none;
+    color: var(--light-color);
+}
+.homepage{
+    display: grid;
+    place-items: center;
+    color: var(--light-color);
+}
+.homepage h1{
+    font-family:"Allura",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 5rem;
+}
+.homepage img{
+    max-width: 600px;
+}
+.homepage p{
+    padding-top: 20px;
+    font-family: "MartelSans",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 1.2rem;
 }

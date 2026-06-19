@@ -4,10 +4,13 @@ import { greeting } from "./greeting.js";
 
 console.log(greeting);
 
+
+
+
 // src/index.js
-import odinImage from "./odin.png";
+// import odinImage from "./odin.png";
 
-const image = document.createElement("img");
-image.src = odinImage;
+// const image = document.createElement("img");
+// image.src = odinImage;
 
-document.body.appendChild(image);
+// document.body.appendChild(image);
