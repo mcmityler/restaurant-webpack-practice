@@ -22,4 +22,6 @@ Chicken Ramen -> Photo by Vitor Diniz from Pexels: https://www.pexels.com/photo/
 
 Spicy Ramen -> Photo by Amar  Preciado from Pexels: https://www.pexels.com/photo/soup-with-egg-17593640/
 
+Story Ramen -> Photo by RDNE Stock project from Pexels: https://www.pexels.com/photo/cooked-food-in-the-bowl-6645920/
+
 Basket Icon SVG: https://fontawesome.com/icons/classic/solid/basket-shopping

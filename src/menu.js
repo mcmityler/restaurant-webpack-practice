@@ -1,3 +1,4 @@
+import "./menu.css";
 import porkOriginalImage from "./images/pork-ramen.jpg";
 import chickenOriginalImage from "./images/chicken-ramen.jpg";
 import porkSpicyImage from "./images/spicy-ramen.jpg";
