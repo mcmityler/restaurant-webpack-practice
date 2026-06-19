@@ -17,6 +17,8 @@
     --dark-grey: #37353e;
     --light-grey: #44444e;
     --brown: #715A5A;
+    --lighter-brown: #947878;
+    --active-brown: #866d6d;
     --light-color: #D3DAD9;
 }
 *{
@@ -46,6 +48,20 @@ header button{
     background-color: var(--brown);
     border: none;
     color: var(--light-color);
+    transition: all 0.5s ease;
+}
+header button:hover{
+    background-color: var(--lighter-brown);
+    transform: translateY(-4px);
+    text-decoration: underline;
+    box-shadow: 4px 4px 7px black;
+}
+header button:active{
+    background-color: var(--active-brown);
+    transform: translateY(-2px);
+    text-decoration: underline;
+    box-shadow: 2px 2px 5px black;
+
 }
 .homepage{
     display: grid;
@@ -54,7 +70,8 @@ header button{
 }
 .homepage h1{
     font-family:"Allura",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-    font-size: 5rem;
+    font-size: 9rem;
+    text-align: center;
 }
 .homepage img{
     max-width: 600px;
