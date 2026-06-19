@@ -1,12 +1,10 @@
-.menu{
-    
-}
 .menu h2{
     font-family:"Allura",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     text-align: center;
     font-size: 6rem;
     margin-top: 20px;
     grid-column: 1/-1;
+    text-decoration:underline wavy var(--brown) 3px;
     grid-row: 1/2;
 }
 .menu .everyday{
@@ -26,35 +24,37 @@
     display: grid;
     grid-template-columns: 180px 1fr 80px;
     grid-template-rows:  70px 1fr 60px;
-    background-color: var(--dark-grey);
+    background-color: var(--light-grey);
     color: var(--light-color);
     font-family: "MartelSans",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     border-radius: 15px;
     padding: 10px;
     box-shadow: 2px 2px 12px black;
-    transition: all 0.5s ease;
+    transition: all 0.5s ease-in-out;
 }
 .ramen:hover{
-    box-shadow: 5px 5px 10px black;
-    transform: rotate(2deg);
+    box-shadow: 4px 4px 20px black;
+    transform: rotate(1deg)
 }
 .ramen img{
     height: 200px;
     width: auto;
     grid-row: 1/-1;
+    grid-column: 1/2;
     place-self: center;
     border-radius: 5px;
     
 }
 .ramen h3{
-    grid-column: 2/-1;
+    grid-column: 1/-1;
+    grid-row: 1/2;
     place-self: center;
     font-size: 1.5rem;
 }
 .ramen .description{
     grid-column: 2/-1;
     font-size: 1.1rem;
-    align-items: center;
+    place-content: center;
     text-align: center;
     padding-right: 10px;
 }

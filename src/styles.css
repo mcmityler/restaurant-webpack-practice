@@ -19,7 +19,7 @@
     --brown: #715A5A;
     --lighter-brown: #947878;
     --active-brown: #645151;
-    --light-color: #D3DAD9;
+    --light-color: #dae7e6;
 }
 *{
     margin: 0;
@@ -27,7 +27,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: var(--light-grey);
+    background-color: var(--light-color);
 ;
 }
 header{
