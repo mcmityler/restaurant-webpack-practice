@@ -2,11 +2,11 @@
 .homepage{
     display: grid;
     place-items: center;
-    color: var(--light-color);
 }
 .homepage h1{
     font-family:"Allura",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     font-size: 9rem;
+    color: black;
     text-align: center;
 }
 .homepage img{
@@ -16,5 +16,6 @@
     padding-top: 20px;
     font-family: "MartelSans",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     font-size: 1.2rem;
+    color: var(--dark-grey);
     letter-spacing: 5px;
 }

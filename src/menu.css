@@ -1,10 +1,10 @@
-.menu h2{
+.menu h1{
     font-family:"Allura",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     text-align: center;
     font-size: 6rem;
     margin-top: 20px;
     grid-column: 1/-1;
-    text-decoration:underline wavy var(--brown) 3px;
+    text-decoration:underline wavy var(--brown);
     grid-row: 1/2;
 }
 .menu .everyday{
