@@ -10,4 +10,6 @@ Allura Font: https://fonts.google.com/specimen/Allura?preview.text=Ramen%20Resta
 
 Color Palette: https://colorhunt.co/palette/37353e44444e715a5ad3dad9
 
+Tab Icon SVG: https://fontawesome.com/icons/classic/solid/bowl-rice?pc=rgba%28255%2C%20255%2C%20255%2C%201.00%29&sc=rgba%28255%2C%20255%2C%20255%2C%200.4%29 
+
 Homepage Picture -> Photo by Matheus Bertelli from Pexels: https://www.pexels.com/photo/delicious-japanese-ramen-with-egg-and-scallions-31393431/
