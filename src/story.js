@@ -4,6 +4,8 @@ import storyRamenImage from "./images/story-ramen.jpg";
 
 export function createStoryPage(){
     const contentContainer = document.getElementById("content");
+    contentContainer.textContent = "";
+
     const storyPageContainer = document.createElement ("div");
     storyPageContainer.classList.add("our-story");
 

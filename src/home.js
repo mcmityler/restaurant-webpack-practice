@@ -3,6 +3,8 @@ import "./home.css";
 
 export function createHomepage(){
     const contentContainer = document.getElementById("content");
+    contentContainer.textContent = "";
+
     //homepage container to easily style 
     const homepageContainer = document.createElement("div");
     homepageContainer.classList.add("homepage");

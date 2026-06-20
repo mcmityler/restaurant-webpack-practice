@@ -6,6 +6,8 @@ import porkSpicyImage from "./images/spicy-ramen.jpg";
 
 export function createMenuPage(){
     const contentContainer = document.getElementById("content");
+    contentContainer.textContent = "";
+    
     const menuContainer = document.createElement("div");
     menuContainer.classList.add("menu");
 
